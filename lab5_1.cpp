@@ -11,7 +11,7 @@ int main(){
         cout << "Enter an integer: ";
         cin >> n;
         if(n != 0){
-			if(n%2 == 0){
+		if(n%2 == 0){
             	Even++;
         	}else odd++;
         }
