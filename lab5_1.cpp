@@ -10,10 +10,11 @@ int main(){
     while (n != 0){
         cout << "Enter an integer: ";
         cin >> n;
-        if(n != 0)
-			if(n%2 == 0)
+        if(n != 0){
+			if(n%2 == 0){
             	Even++;
-        	else odd++;
+        	}else odd++;
+        }
 	}
     cout << "#Even numbers = " << Even <<"\n";
     cout << "#Odd numbers = " << odd;
